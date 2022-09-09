@@ -4,6 +4,8 @@
 
 .presentation__container {
 height:500px;
+/* box-shadow: rgba(0,0,0,0.1) 0px 20px 25px -20px, rgba(0,0,0,0.05) 0px 10px 10px -5px; */
+
 }
 
 .presentation__content {
@@ -13,6 +15,8 @@ height:500px;
     gap: 2rem;
     padding: 2rem 0;
     padding-bottom: 3rem;
+    box-shadow: rgba(0,0,0,0.1) 0px 20px 25px -20px, rgba(0,0,0,0.05) 0px 10px 10px -5px;
+
 }
 .presentation__detail {
     display: flex;
@@ -102,7 +106,8 @@ height:500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    box-shadow: rgba(0,0,0,0.1) 0px 20px 25px -20px, rgba(0,0,0,0.05) 0px 10px 10px -5px;
+
 }
 
 .abstract__content{

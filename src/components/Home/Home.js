@@ -54,7 +54,7 @@ a\
         </section>
         <a  name='projects' href='/#'> </a>
         <section className='projects__main'>
-                <h1 className='section__title'>Mis Projectos</h1>
+                <h1 className='section__title2'>Mis Projectos</h1>
             <div className='projects__title'>
                 <Project/>
             </div>

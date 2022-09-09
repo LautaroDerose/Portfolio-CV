@@ -1,6 +1,6 @@
 import React from 'react'
 import miniatura1 from '../../assets/miniatura_ecommerce.png'
-import miniatura2 from '../../assets/spot-prueba.jpg'
+import miniatura2 from '../../assets/dashboard.png'
 import miniatura3 from '../../assets/land-prueba2.jpg'
 import './Project.css'
 
@@ -30,11 +30,11 @@ const Project = () => {
           <img src={miniatura2} alt=""/>
         </div>        
         <div className="project__detail">
-            <h4 className='detail__title'>Spotify-clone</h4>
-            <p>Replica de Spotify consumiendo su api y agregando funcionalidad de ordenar playlist por parametros</p>
+            <h4 className='detail__title'>Dashboard-Challenge</h4>
+            <p>Replica de challenge de Dashboard donde puse en practica y aprendi el uso de Styled-Components</p>
             <div className="project__links">
-              <a className=" btn-line" href="/#">Go to Code</a>
-              <a className="btn" href="/#">Go to Web</a>
+              <a className=" btn-line" target="_blank"  rel="noreferrer" href="https://github.com/LautaroDerose/Challenge-dashboard">Go to Code</a>
+              <a className="btn__disabled" href="/#">Go to Web</a>
             </div>
         </div>          
       </div>  
