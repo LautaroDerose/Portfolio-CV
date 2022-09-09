@@ -1,29 +1,23 @@
 import React from 'react'
 import './Navbar.css'
-
+import { FaHome } from 'react-icons/fa' 
 
 const menuItems = [
 
   {
     id: 1,
-    label: 'home',
-    toLink:'/',
-  },
-  
-  {
-    id: 2,
     label: 'formacion',
     toLink:'/#formacion',
   },
  
   {
-    id: 3,
-    label: 'projects',
+    id: 2,
+    label: 'proyectos',
     toLink:'/#projects',
   },
 
   {
-    id: 4,
+    id: 3,
     label: 'contacto',
     toLink:'/#contact',
   },
@@ -37,12 +31,13 @@ const Navbar = () => {
     <header className='navbar__container'>
         <div className='navbar__content'>
           <div className='navbar__general'>
-            <a className='navbar__logo'><h3>&lt; Lautaro Derose /&gt;</h3></a>
+            <a className='navbar__logo' href='/'><h3>&lt; Lautaro Derose /&gt;</h3></a>
           </div>
           <nav>
+            <a href='/' className='navbar__icon'><FaHome/></a>
             {
               menuItems.map((item) => (
-                <a href={item.toLink} key={item.id} > {item.label} </a>
+                <a href={item.toLink} key={item.id} > {item.label}</a>
               ))
             }
           </nav>

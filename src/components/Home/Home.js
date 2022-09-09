@@ -20,7 +20,7 @@ const Home = () => {
                     <h4>Frontend Developer & Designer</h4>
                     <p>Desarrollador FrontEnd con profundos conocimientos en Diseno y Comunicacion Visual</p>
                     <div className='btns__principal'>
-                        <a href="/#" className='btn__general'>Algun boton </a>
+                        <a href="/#contact" className='btn__general'>contáctame</a>
                         <a target="_blank" rel="noreferrer" href="https://github.com/LautaroDerose" className='btn__icon'><FaGithub/> </a>
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/lautaro-derose-7322b6107/" className='btn__icon' ><FaLinkedin/> </a>
                         <a href="/#" className='btn__icon' ><HiMail/> </a>

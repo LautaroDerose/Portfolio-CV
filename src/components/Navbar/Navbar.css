@@ -40,6 +40,13 @@
 .item__container{
    
 }
+
+.navbar__icon{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
