@@ -1,5 +1,7 @@
 import React from 'react';
-import './Formulario.css'
+// import './Formulario.css'
+import '../Footer/Footer.css'
+
 import { useForm, ValidationError } from '@formspree/react';
 import Swal from 'sweetalert2';
 
@@ -35,38 +37,49 @@ function ContactForm() {
         
 
         <form className='form__content' onSubmit={handleSubmit}>
-        <label htmlFor="name">Nombre del emisario</label>
-        <input className='box'
-          id="name"
-          type="text" 
-          name="name"
-        />
-        <label htmlFor="email">Correo Electronico</label>
-        <input className='box'
-          id="email"
-          type="email" 
-          name="email"
-        />
-        <ValidationError 
-          prefix="Email" 
-          field="email"
-          errors={state.errors}
-        />
-        <label htmlFor="subject">Asunto</label>
-        <input className='box'
-          id="subject"
-          type="text" 
-          name="subject"
-        />
-        <textarea className='input__comentario box'
-          id="message"
-          name="message"
-        />
-        <ValidationError 
-          prefix="Message" 
-          field="message"
-          errors={state.errors}
-        />
+          <div className='inputs__container'>
+          <div className='form__inputs'>
+            {/* <label htmlFor="name">Nombre del emisario</label> */}
+            <input className='box'
+              id="name"
+              type="text" 
+              name="name"
+              placeholder='Nombre del emisario'
+            />
+            {/* <label htmlFor="email">Correo Electronico</label> */}
+            <input className='box'
+              id="email"
+              type="email" 
+              name="email"
+              placeholder='Correo Electronico'
+
+            />
+            <ValidationError 
+              prefix="Email" 
+              field="email"
+              errors={state.errors}
+            />
+            {/* <label htmlFor="subject">Asunto</label> */}
+            <input className='box'
+              id="subject"
+              type="text" 
+              name="subject"
+              placeholder='Asunto'
+            />
+          </div>
+          <div className='textarea__container'>
+            <textarea className='input__comentario box'
+            id="message"
+            name="message"
+            placeholder='Deje un mensaje :)'
+          />
+          <ValidationError 
+            prefix="Message" 
+            field="message"
+            errors={state.errors}
+          />
+          </div>
+          </div>
         <button className='btn__general btn__form' type="submit" disabled={state.submitting} onClick={showAlert}>Enviar</button>
     </form>
       </div>

@@ -7,7 +7,7 @@ const menuItems = [
   {
     id: 1,
     label: 'home',
-    toLink:'/#home',
+    toLink:'/',
   },
   
   {
@@ -24,14 +24,10 @@ const menuItems = [
 
   {
     id: 4,
-    label: 'tecnologias',
-    toLink:'/#tech',
-  },
-  {
-    id: 5,
     label: 'contacto',
     toLink:'/#contact',
   },
+ 
 
 ]
 

@@ -4,8 +4,6 @@ import Perfil from '../../assets/image_presentation.png'
 import AbstractImage from  '../../assets/abstract_image.png'
 import Project from '../Project/Project'
 import Habilidades from '../Habilidades/Habilidades'
-import Formulario from '../Formulario/Formulario'
-import Footer from '../Footer/Footer'
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
@@ -13,7 +11,7 @@ import { HiMail } from 'react-icons/hi'
 const Home = () => {
   return (
     <div className='main__container'>
-                    <a  name='home'href=''></a>
+                    <a  name='home'href='/#'> </a>
         <section className='presentation__container'>
             <div className='presentation__content'>
                 
@@ -22,10 +20,10 @@ const Home = () => {
                     <h4>Frontend Developer & Designer</h4>
                     <p>Desarrollador FrontEnd con profundos conocimientos en Diseno y Comunicacion Visual</p>
                     <div className='btns__principal'>
-                        <a href="" className='btn__general'>Algun boton</a>
-                        <a href="" className='btn__icon'><FaGithub/></a>
-                        <a href="https://www.linkedin.com/in/lautaro-derose-7322b6107/" className='btn__icon' ><FaLinkedin/></a>
-                        <a href="" className='btn__icon' ><HiMail/></a>
+                        <a href="/#" className='btn__general'>Algun boton </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/LautaroDerose" className='btn__icon'><FaGithub/> </a>
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/lautaro-derose-7322b6107/" className='btn__icon' ><FaLinkedin/> </a>
+                        <a href="/#" className='btn__icon' ><HiMail/> </a>
                     </div>
                 </div>
                 <div className='presentation__image'>
@@ -33,7 +31,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-            <a  name='formacion'href=''></a>
+            <a  name='formacion'href='/#'> </a>
         <section className='abstract__main'>
             <h1 className='section__title'>Mi recorrido</h1>
             <div className='abstract__container'>
@@ -48,29 +46,29 @@ const Home = () => {
 
                 </div>
                 <div className='abstract__image'>
-                    <img src={AbstractImage}/>
+                    <img src={AbstractImage} alt="abstract-fondo"/>
                 </div>
                 </div>
             </div>
-
+a\
         </section>
-        <a  name='projects' href=''></a>
+        <a  name='projects' href='/#'> </a>
         <section className='projects__main'>
                 <h1 className='section__title'>Mis Projectos</h1>
             <div className='projects__title'>
                 <Project/>
             </div>
         </section>
-        <a  name='tech' href=''></a>
         <section className='tech__main'>
                 <h1 className='section__title2'>Tecnologias</h1>
             <div className='tech__container'>
                 <Habilidades/>
             </div>
         </section>
+        <a  name='contact' href='/#'> </a>
         <section className='contact__main'>
                 <h1 className='section__title2'>Contactarse</h1>
-            <Formulario/>
+            {/* <Formulario/> */}
         </section>
         
     </div>
