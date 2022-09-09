@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+
+.navbar__container {
+    background-color: var(--palette3);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+
+}
+
+.navbar__content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2%;
+    padding: .5rem;
+    
+}
+
+.navbar__general a h3 {
+    font-family: 'Titillium Web', sans-serif ;
+    font-weight: 700;
+    color: var(--palette1);
+}
+ 
+.item__container{
+   
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+nav a {
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif ;
+}

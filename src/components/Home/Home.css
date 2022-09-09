@@ -1,0 +1,127 @@
+.main__container {
+    scroll-behavior: smooth;
+}
+
+.presentation__container {
+height:500px;
+}
+
+.presentation__content {
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.presentation__detail {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    width: 50%;
+    padding: 1rem;
+    gap: .5rem;
+    margin-left: 2rem;
+}
+
+.presentation__detail h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700 ;
+    font-size: 2rem;
+    color: var(--palette1);
+}
+
+.presentation__detail h4 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(136, 136, 136);
+}
+
+.presentation__detail p {
+    width: 65%;
+}
+
+.btns__principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.btn__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--palette1);
+  font-size: 2rem;
+}
+
+
+.presentation__image {
+width: 50%;
+display: flex;
+align-items: end;
+justify-content: start;
+}
+
+.presentation__image img {
+    width: 70%;
+    margin-top: 2rem;    
+}
+
+.section__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--palette1);
+    margin-bottom: 2rem;
+}
+
+.section__title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--palette1);
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.abstract__main{
+}
+
+.abstract__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.abstract__content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8rem;
+    width: 80%;
+    margin: 3rem;
+}
+
+.abstract__info{
+    width: 50%;
+}
+
+.abstract__image{
+    width: 60%;
+}
+
+.abstract__image img {
+    width: 100%;
+}
+
+.contact__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
