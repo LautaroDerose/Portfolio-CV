@@ -13,13 +13,13 @@
   margin: auto;
 } */
 .app__main {
-  max-width: 1200px;
-  margin: auto;
+  /* max-width: 1200px; */
+  /* margin: auto; */
   
 }
 
 body{
-  margin: 0rem;
+  /* margin: 0rem;
   padding: 0;
   box-sizing: border-box;
 }
@@ -32,10 +32,10 @@ a,
 ul,
 li {
   margin:0;
-  padding:0;
+  padding:0; */
 }
 
-.btn__general {
+/* .btn__general {
   display: inline-block;
   border-radius: 5rem;
   border: .18rem solid ;
@@ -50,4 +50,4 @@ li {
 .btn__general:hover {
 background-color: var(--palette1);
 color: var(--palette5);
-}
+} */

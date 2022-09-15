@@ -6,9 +6,9 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-gray-900">
       <Navbar/>
-      <div className='app__main'>
+      <div className=''>
       <Home/>
       </div>
       <Footer/>
