@@ -49,6 +49,7 @@
 // export default Navbar
 
 import React, {useState} from 'react';
+// import {Link} from 'react-router-dom'
 import {AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
@@ -61,14 +62,16 @@ const Navbar = () => {
 
 
   return (
-    <div className="flex justify-between items-center bg-gray-900 h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className=" bg-gray-900 sticky top-0 ">
+        <div className='flex justify-between sticky top-0 items-center  h-16 max-w-[1240px] mx-auto px-4 text-white'>
         <h1 className='w-full text-3xl font-bold text-[#34d399]'>React.</h1>
         <ul className='hidden md:flex'>
           <li className='p-4 hover:text-emerald-500'><a href='/'>Home</a></li>
-          <li className='p-4 hover:text-emerald-500'><a href='/'>Formacion</a></li>
-          <li className='p-4 hover:text-emerald-500'><a href='/'>Proyectos</a></li>
-          <li className='p-4 hover:text-emerald-500'><a href='/'>Contacto</a></li>
+          <li className='p-4 hover:text-emerald-500'><a href='/#formation'>Formacion</a></li>
+          <li className='p-4 hover:text-emerald-500'><a href='/#projects'>Proyectos</a></li>
+          <li className='p-4 hover:text-emerald-500'><a href='/#contact'>Contacto</a></li>
         </ul>
+        </div>
         <div onClick={handleNav} className='block md:hidden'> 
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}
         </div>
@@ -76,9 +79,9 @@ const Navbar = () => {
             <h1 className='w-full text-3xl font-bold text-[#34d399] m-8'>React.</h1>
             <ul className='p-4 uppercase '>    
                 <li className='p-4 hover:text-emerald-500 border-b border-gray-600'><a href='/'>Home</a></li>
-                <li className='p-4 hover:text-emerald-500 border-b border-gray-600'><a href='/'>Formacion</a></li>
-                <li className='p-4 hover:text-emerald-500 border-b border-gray-600'><a href='/'>Proyectos</a></li>
-                <li className='p-4 hover:text-emerald-500 border-b border-gray-600'><a href='/'>Contacto</a></li>
+                <li className='p-4 hover:text-emerald-500 border-b border-gray-600'><a href='/#formation'>Formacion</a></li>
+                <li className='p-4 hover:text-emerald-500 border-b border-gray-600'><a href='/#projects'>Proyectos</a></li>
+                <li className='p-4 hover:text-emerald-500 border-b border-gray-600'><a href='/#contact'>Contacto</a></li>
             </ul>
         </div>
     </div>

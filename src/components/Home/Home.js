@@ -13,8 +13,8 @@ const Home = () => {
         <section className=''>
             <Greeting/>
         </section>
-            <a  name='formacion'href='/#'> </a>
         <section className=''>
+            <a  name='formacion'href='/#formation'> </a>
             <Formation/>
         </section>
         <a  name='projects' href='/#'> </a>

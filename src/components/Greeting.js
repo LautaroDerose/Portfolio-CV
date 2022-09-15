@@ -2,7 +2,17 @@ import React from 'react'
 import Perfil from '../assets/image_presentation.png'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
+import Swal from 'sweetalert2';
+
 const Greeting = () => {
+
+    const showAlert = () => {
+     
+        Swal.fire(
+            'lautiderose@gmail.com'
+        )
+    }
+
   return (
         <div className='w-full h-[99%] bg-white py-16 px-4'>        
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
@@ -15,7 +25,7 @@ const Greeting = () => {
                         <div className='flex justify-between gap-6 ml-6'>
                         <a className=" flex items-center justify-center text-emerald-500" target="_blank" rel="noreferrer" href="https://github.com/LautaroDerose" ><FaGithub size={30}/> </a>
                         <a className=" flex items-center justify-center text-emerald-500" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/lautaro-derose-7322b6107/"  ><FaLinkedin size={30}/> </a>
-                        <a className=" flex items-center justify-center text-emerald-500" href="/#"  ><HiMail size={30}/> </a>
+                        <a className=" flex items-center justify-center text-emerald-500" href="/#" onClick={showAlert} ><HiMail size={30}/> </a>
                         </div>
                     </div>
                 </div>
@@ -27,22 +37,3 @@ const Greeting = () => {
 
 export default Greeting
 
-{/* <>
-<div className='presentation__content'>        
-        <div className='presentation__detail'>
-            <h3>Hola, soy Lautaro</h3>
-            <h4>Frontend Developer & Designer</h4>
-            <p>Desarrollador FrontEnd con profundos conocimientos en Diseno y Comunicacion Visual</p>
-            <div className='btns__principal'>
-                <a href="/#contact" className='btn__general'>contáctame</a>
-                <a target="_blank" rel="noreferrer" href="https://github.com/LautaroDerose" className='btn__icon'><FaGithub/> </a>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/lautaro-derose-7322b6107/" className='btn__icon' ><FaLinkedin/> </a>
-                <a href="/#" className='btn__icon' ><HiMail/> </a>
-            </div>
-        </div>
-        <div className='presentation__image'>
-            <img src={Perfil} alt=''/>
-        </div>
-    </div>
-</>
-) */}
