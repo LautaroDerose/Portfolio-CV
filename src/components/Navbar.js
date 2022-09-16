@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-        <div className='fixed w-full bg-gray-900 z-10 top-0  flex justify-between items-center  h-16  mx-auto px-4 md:px-[2rem] lg:px-[6rem] text-white'>
+        <div className='fixed w-full bg-gray-900 z-10 top-0  flex justify-between items-center lg:max-w-[1240px] h-16  mx-auto px-4 md:px-[2rem] lg:px-[6rem] text-white'>
           
           <h1 className='w-full text-3xl font-bold text-[#34d399]'>React.</h1>
           <ul className='hidden md:flex'>

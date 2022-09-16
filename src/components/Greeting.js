@@ -14,7 +14,7 @@ const Greeting = () => {
     }
 
   return (
-        <div className='w-full h-[99%] bg-white py-16 mt-16 px-4'>        
+        <div className='w-full lg:max-w-[1240px] bg-white py-16 mt-16 px-4'>        
             <div className=' mx-auto grid md:grid-cols-2 md:mx-[1rem] lg:px-[6rem] '>
                 <div className='flex flex-col justify-center lg:pt-[3rem]'>
                     <h3 className=' md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Hola, soy Lautaro</h3>
