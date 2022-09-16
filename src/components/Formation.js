@@ -16,7 +16,6 @@ const Formation = () => {
                 En la actualidad, recientemente finalicé el curso de <b>React JS</b> en <b>CoderHouse</b>, y estoy en la búsqueda activa para obtener mi primer empleo como <b>Programador Frontend</b>.
                 </p>
             </div>
-                <a href='/#formation'></a>
         </div>
     </div>
   )

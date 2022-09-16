@@ -1,5 +1,5 @@
 import React from 'react'
-import Formulario from '../Formulario/Formulario'
+import Formulario from './Formulario'
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
@@ -7,7 +7,6 @@ import { HiMail } from 'react-icons/hi'
 const Footer = () => {
   return (
     <div className="flex-col bg-palette3 pt-1">
-      <a href='/#contact' alt='contact'></a>
       <div className=' mx-auto max-w-[1240px]'>
         <Formulario />
         <div className='flex flex-col items-center lg:flex-row gap-4 justify-center'>

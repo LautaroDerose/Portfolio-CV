@@ -1,14 +1,13 @@
 import React from 'react'
-import miniatura1 from '../../assets/miniatura_ecommerce.png'
-import miniatura2 from '../../assets/dashboard.png'
-import miniatura3 from '../../assets/land-prueba2.jpg'
-import './Project.css'
+import miniatura1 from '../assets/miniatura_ecommerce.png'
+import miniatura2 from '../assets/dashboard.png'
+import miniatura3 from '../assets/land-prueba2.jpg'
+
 
 
 const Project = () => {
   return (
     <div className='w-full py-[3rem] px-4 bg-white'>
-      <a href='/#projects'></a>
         <h1 className='text-center uppercase text-emerald-500 font-bold text-xl'>Proyectos</h1>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 justify-center items-center' >
 
@@ -22,7 +21,7 @@ const Project = () => {
               <p className=' flex font-light h-[150px] md:h-[100px] justify-center items-center text-sm pb-1' >Projecto ecommerce en react, consumo de prodctos por base de datos en Firebase, categorias de producto, login/register, carrito de compras.</p>
               <div className="flex gap-1 lg:justify-between lg:flex-row content-end flex-col items-center">
                 <a target="_blank"  rel="noreferrer" className=" text-emerald-500 font-bold hover:underline w-full text-center py-1 " href='https://github.com/LautaroDerose/DeroseEcommerceCoderhouse'>Ver código</a>
-                <a target="_blank"  rel="noreferrer" className=' bg-emerald-500 text-gray-900 font-medium w-full text-center rounded-md py-1 hover:bg-palette1 hover:text-palette5 ' href="https://derose-ecommerce-coderhouse.vercel.app/">Ir a Web</a>
+                <a target="_blank"  rel="noreferrer" className=' bg-emerald-500 text-gray-900 font-medium w-full text-center rounded-md py-1 hover:bg-palette1 hover:text-palette5 duration-300' href="https://derose-ecommerce-coderhouse.vercel.app/">Ir a Web</a>
               </div>
           </div>          
         </div>  
