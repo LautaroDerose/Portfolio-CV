@@ -2,7 +2,7 @@ import React from 'react'
 
 const Habilidades = () => {
     return (
-    <div className='mx-[10%] my-[5%]'>
+    <div className='mx-[10%] my-[5%]' id='tech'>
         <h1 className=' flex  items-center justify-center mb-8 text-white font-bold text-3xl'>Tecnologias</h1>
         <div className='flex justify-around h-[80%] bg-white p-4 rounded-xl shadow-lg '>
             <div className='flex items-center justify-center gap-4 lg:gap-8 ' >

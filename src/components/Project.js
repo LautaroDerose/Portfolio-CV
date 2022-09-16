@@ -3,11 +3,9 @@ import miniatura1 from '../assets/miniatura_ecommerce.png'
 import miniatura2 from '../assets/dashboard.png'
 import miniatura3 from '../assets/land-prueba2.jpg'
 
-
-
 const Project = () => {
   return (
-    <div className='w-full py-[3rem] px-4 bg-white'>
+    <div className='w-full py-[3rem] px-4 bg-white' id='project'>
         <h1 className='text-center uppercase text-emerald-500 font-bold text-xl'>Proyectos</h1>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 justify-center items-center' >
 
@@ -61,22 +59,3 @@ const Project = () => {
 }
 
 export default Project
-
-
-
-// {
-//   projectsArray.map((project) => (
-//     <div className='project__content' key={project.id}>
-//         <h5>{project.label}</h5>
-//         <img src={`'../../assets/${project.image}'`} alt=""/>
-//         <div class="project__detail">
-//             <h4 className='detail__title'>{project.title}</h4>
-//             <p>{project.detail}</p>
-//             <div class="project__links">
-//                 <h4>{project.codeLink}</h4>
-//                 <a class="btn" href={project.deployCode}>{project.deployCode}</a>
-//             </div>
-//         </div>
-//     </div>
-//   ) )
-// }

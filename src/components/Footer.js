@@ -1,12 +1,11 @@
 import React from 'react'
 import Formulario from './Formulario'
-
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
 
 const Footer = () => {
   return (
-    <div className="flex-col bg-palette3 pt-1">
+    <div className="flex-col bg-palette3 pt-1" id='contact'>
       <div className=' mx-auto max-w-[1240px]'>
         <Formulario />
         <div className='flex flex-col items-center lg:flex-row gap-4 justify-center'>
@@ -32,7 +31,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-                        // <a href="" className='btn__icon'><FaGithub/></a>
-                        // <a href="https://www.linkedin.com/in/lautaro-derose-7322b6107/" className='btn__icon' ><FaLinkedin/></a>
-                        // <a href="" className='btn__icon' ><HiMail/></a>

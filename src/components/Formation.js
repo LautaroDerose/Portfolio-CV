@@ -1,10 +1,9 @@
 import React from 'react'
 import AbstractImage from  '../assets/formation_image.svg'
 
-
 const Formation = () => {
   return (
-    <div className='w-full py-8 px-4 static'>
+    <div className='w-full py-8 px-4 static' id='formation'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 md:pt-0 py-[1rem] md:mt-0 '>
             <img  className='w-[300px] md:w-[400px] mx-auto md:mt-16 pt-8 px-4 ' src={AbstractImage} alt="abstract-fondo"/>
             <div className='flex flex-col justify-center text-gray-100'>
