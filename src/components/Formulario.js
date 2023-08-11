@@ -70,7 +70,7 @@ function ContactForm() {
             errors={state.errors}
           />
           </div>
-          <button className=' bg-emerald-500 text-gray-900 font-medium w-full md:w-[92%] text-center rounded-md py-3 ' type="submit" disabled={state.submitting} onClick={showAlert}>Enviar</button>
+          <button className=' bg-emerald-500 text-gray-900 font-medium w-full md:w-[92%] text-center rounded-md py-3 hover:text-emerald-500 hover:bg-palette1 duration-300 ' type="submit" disabled={state.submitting} onClick={showAlert}>Enviar</button>
           </div>
           
 
