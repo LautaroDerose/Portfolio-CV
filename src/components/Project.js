@@ -5,6 +5,7 @@ import miniatura3 from '../assets/land-prueba2.jpg'
 import miniatura4 from '../assets/chatApp-full.png'
 import miniatura5 from '../assets/calculator.png'
 import miniatura6 from '../assets/todo.png'
+import miniatura7 from '../assets/miniatura7.png'
 
 const Project = () => {
   return (
@@ -80,7 +81,7 @@ const Project = () => {
         </div>        
         <div className="p-4">
             <h4 className='flex justify-start text-palette2  font-bold text-xl py-1'>Calculadora | Challenge</h4>
-            <p className=' flex font-light md:h-[100px] justify-center items-center text-sm pb-1'>Calculadora sencilla ReactJs y TailwindCSS</p>
+            <p className=' flex font-light md:h-[100px]  items-center text-sm pb-1'>Calculadora sencilla ReactJs y TailwindCSS</p>
             <div className="flex gap-1 lg:justify-between lg:flex-row content-end flex-col items-center">
               <a target="_blank"  rel="noreferrer" className=" text-emerald-500 font-bold hover:underline w-full text-center py-1" href='https://github.com/LautaroDerose/calculator'>Ver código</a>
               <span className='bg-gray-400 text-gray-900 font-medium w-full text-center rounded-md py-1 ' >Ir a Web</span>
@@ -95,10 +96,25 @@ const Project = () => {
         </div>        
         <div className="p-4">
             <h4 className='flex justify-start text-palette2  font-bold text-xl py-1'>TodoList | Challenge</h4>
-            <p className=' flex font-light md:h-[100px] justify-center items-center text-sm pb-1'>TodoList | CRUD | realizado ReactJs y TailwindCSS</p>
+            <p className=' flex font-light md:h-[100px]  items-center text-sm pb-1'>TodoList | CRUD | realizado ReactJs y TailwindCSS</p>
             <div className="flex gap-1 lg:justify-between lg:flex-row content-end flex-col items-center">
               <a target="_blank"  rel="noreferrer" className=" text-emerald-500 font-bold hover:underline w-full text-center py-1" href='https://github.com/LautaroDerose/TodoList'>Ver código</a>
               <span className='bg-gray-400 text-gray-900 font-medium w-full text-center rounded-md py-1 ' >Ir a Web</span>
+            </div>
+        </div>          
+      </div>   
+      
+      <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
+        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReaactJS | TailwindCSS</h5>
+        <div className=' max-h-200px '>
+          <img className=' mx-auto h-[150px] object-fit' src={miniatura7} alt=""/>
+        </div>        
+        <div className="p-4">
+            <h4 className='flex justify-start text-palette2  font-bold text-xl py-1'>LandingPage | Servicios </h4>
+            <p className=' flex font-light md:h-[100px] items-center text-sm pb-1'>LandingPage de servicios Agrimensores</p>
+            <div className="flex gap-1 lg:justify-between lg:flex-row content-end flex-col items-center">
+              <a target="_blank"  rel="noreferrer" className=" text-emerald-500 font-bold hover:underline w-full text-center py-1" href='https://github.com/LautaroDerose/ATC-EstudioAgrimensura'>Ver código</a>
+              <a target="_blank"  rel="noreferrer" className=' bg-emerald-500 text-gray-900 font-medium w-full text-center rounded-md py-1 hover:bg-palette1 hover:text-palette5 duration-300' href="https://www.atcagrimensura.com.ar/">Ir a Web</a>
             </div>
         </div>          
       </div>   
