@@ -32,7 +32,7 @@ const Project = () => {
       <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
         <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReaactJS | TailwindCSS</h5>
         <div className=' max-h-200px '>
-          <img className=' mx-auto h-[150px] object-fit' src={miniatura8} alt=""/>
+          <img className=' mx-auto h-[150px] object-cover' src={miniatura8} alt=""/>
         </div>        
         <div className="p-4">
             <h4 className='flex justify-start text-palette2  font-bold text-xl py-1'>LandingPage | Servicios </h4>
