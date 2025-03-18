@@ -7,6 +7,7 @@ import miniatura5 from '../assets/calculator.png'
 import miniatura6 from '../assets/todo.png'
 import miniatura7 from '../assets/miniatura7.png'
 import miniatura8 from '../assets/Screenshot-web-potenciandohabitos.png'
+import miniatura9 from '../assets/museo-screenshot.png'
 
 const Project = () => {
   return (
@@ -15,7 +16,22 @@ const Project = () => {
       <div className='max-w-[1240px]  mx-auto grid md:grid-cols-3 gap-8 justify-center items-center' >
 
       <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
-        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReaactJS | TailwindCSS</h5>
+        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>NextJS | TailwindCSS</h5>
+        <div className=' max-h-200px '>
+          <img className=' mx-auto h-[150px] object-cover' src={miniatura9} alt=""/>
+        </div>        
+        <div className="p-4">
+            <h4 className='flex justify-start text-palette2  font-bold text-xl py-1'>Blog de Museo virtual </h4>
+            <p className=' flex font-light md:h-[100px] items-center text-sm pb-1'>Museo virtual con varias secciones de fototeca, colecciones, salas y mas...</p>
+            <div className="flex gap-1 lg:justify-between lg:flex-row content-end flex-col items-center">
+              <a target="_blank"  rel="noreferrer" className=" text-emerald-500 font-bold hover:underline w-full text-center py-1" href='https://github.com/LautaroDerose/museo'>Ver código</a>
+              <a target="_blank"  rel="noreferrer" className=' bg-emerald-500 text-gray-900 font-medium w-full text-center rounded-md py-1 hover:bg-palette1 hover:text-palette5 duration-300' href="https://www.museoepecuen.gob.ar/">Ir a Web</a>
+            </div>
+        </div>          
+      </div>   
+
+      <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
+        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReactJS | TailwindCSS</h5>
         <div className=' max-h-200px '>
           <img className=' mx-auto h-[150px] object-fit' src={miniatura7} alt=""/>
         </div>        
@@ -30,7 +46,7 @@ const Project = () => {
       </div>   
 
       <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
-        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReaactJS | TailwindCSS</h5>
+        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReactJS | TailwindCSS</h5>
         <div className=' max-h-200px '>
           <img className=' mx-auto h-[150px] object-cover' src={miniatura8} alt=""/>
         </div>        
@@ -43,7 +59,8 @@ const Project = () => {
             </div>
         </div>          
       </div>   
-
+      
+      
       <div  className='w-full shadow-xl flex flex-col p-4 py-4 my-4 rounded-lg hover:scale-105 duration-300 border-2 '>
         <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>React JS</h5>
         <div className='max-h-200px'>
@@ -59,7 +76,7 @@ const Project = () => {
         </div>          
       </div>  
 
-        <div  className='w-full shadow-xl flex flex-col p-8 my-4 rounded-lg hover:scale-105 duration-300 border-2 bg-gray-100'>
+        {/* <div  className='w-full shadow-xl flex flex-col p-8 my-4 rounded-lg hover:scale-105 duration-300 border-2 bg-gray-100'>
           <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>React JS</h5>
           <div className='max-h-200px'>
             <img className=' mx-auto h-[150px] object-contain' src={miniatura1} alt=""/>
@@ -72,7 +89,7 @@ const Project = () => {
                 <a target="_blank"  rel="noreferrer" className=' bg-emerald-500 text-gray-900 font-medium w-full text-center rounded-md py-1 hover:bg-palette1 hover:text-palette5 duration-300' href="https://derose-ecommerce-coderhouse.vercel.app/">Ir a Web</a>
               </div>
           </div>          
-        </div>  
+        </div>   */}
 
 
       <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
@@ -91,7 +108,7 @@ const Project = () => {
       </div>   
 
       <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
-        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReaactJS | TailwindCSS</h5>
+        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReactJS | TailwindCSS</h5>
         <div className=' max-h-200px '>
           <img className=' mx-auto h-[150px] object-contain' src={miniatura4} alt=""/>
         </div>        
@@ -106,7 +123,7 @@ const Project = () => {
       </div>   
 
       <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
-        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReaactJS | TailwindCSS</h5>
+        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReactJS | TailwindCSS</h5>
         <div className=' max-h-200px '>
           <img className=' mx-auto h-[150px] object-fit' src={miniatura5} alt=""/>
         </div>        
@@ -121,7 +138,7 @@ const Project = () => {
       </div>   
 
       <div  className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border-2'>
-        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReaactJS | TailwindCSS</h5>
+        <h5 className='absolute bg-emerald-300 max-w-fit px-4 text-emerald-900 font-medium'>ReactJS | TailwindCSS</h5>
         <div className=' max-h-200px '>
           <img className=' mx-auto h-[150px] object-fit' src={miniatura6} alt=""/>
         </div>        
